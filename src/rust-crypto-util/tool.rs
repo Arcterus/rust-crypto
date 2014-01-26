@@ -66,7 +66,7 @@ fn main() {
 
     let opts = ~[
         // General parameters:
-        optopt("h"),
+        optflag("h"),
         optflag("help"),
 
         // Scrypt parameters:
